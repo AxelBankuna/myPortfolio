@@ -15,7 +15,7 @@ app.post('/send', (req, res) => {
   try {
       const mailOptions = {
           from: req.body.mail,
-          to: process.env.email,
+          to: process.env.REACT_APP_EMAIL,
           subject: req.body.contactSubject,
           html: `
           <p>You have a new contact request.<p>
