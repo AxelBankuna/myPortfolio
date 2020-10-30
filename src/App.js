@@ -17,7 +17,7 @@ class App extends Component {
       foo: 'bar',
       resumeData: {}
     };
-
+console.log('here er are', process.env.REACT_APP_EMAIL);
   }
 
   getResumeData(){

@@ -5,8 +5,10 @@ dotenv.config();
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'axelbukasaportfolio@gmail.com', // your email address to send email from
-    pass: 'Hb58Asji@umuziacademy' // your gmail account password
+    // user: 'axelbukasaportfolio@gmail.com',
+    // pass: 'Hb58Asji@umuziacademy',
+    user: process.env.REACT_APP_EMAIL, // your email address to send email from
+    pass: process.env.REACT_APP_PASSWORD // your gmail account password
   }
 });
 
