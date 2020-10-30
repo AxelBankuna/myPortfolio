@@ -1,0 +1,129 @@
+{
+  "main": {
+    "name": "Axel Bukasa",
+    "occupation": "Javascript Developer",
+    "description": "Full Stack Developer",
+    "image": "Axel.jpg",
+    "bio": "My name is Axel, I'm a Full Stack Angular and React Developer.",
+    "contactmessage": "Get in touch with me to receive further details.",
+    "email": "axelb.bukasa@gmail.com.com",
+    "phone": "+27 82 714 3180",
+    "address": {
+      "street": "North Eastern Johannesburg",
+      "city": "Johannesburg",
+      "state": "South Africa",
+      "zip": "2090"
+    },
+    "website": "",
+    "resumedownload": "/docs-resources/Axel's Resume.pdf",
+    "social": [
+      {
+        "name": "Axel Bankuna Bukasa",
+        "url": "https://www.facebook.com/axel.bukasa",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/axelbukasa/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/axelbankuna/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/axelbankuna",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I'm an electronics engineering graduate who loves to code.",
+    "education": [
+      {
+        "school": "Tshwane University Of Technology",
+        "degree": "National Diploma: Electrical Engineering",
+        "graduated": "May 2017",
+        "description": "Majored in Digital Engineering"
+      }
+    ],
+    "work": [
+      {
+        "company": "Vanity Consulting",
+        "title": "Software Developer",
+        "years": "March 2020 - July 2020",
+        "description": "Building web applications"
+      },
+      {
+        "company": "Psybergate",
+        "title": "Software Engineer Intern",
+        "years": "Sept 2019 - March 2020",
+        "description": "Learning core Java and shadowing senior developers."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "40%"
+      },
+      {
+        "name": "CSS",
+        "level": "70%"
+      },
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Angular",
+        "level": "75%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Matchya",
+        "category": "Dating Website (PHP, MySQL, JavaScript, HTLM, CSS)",
+        "image": "phplogo.png",
+        "url": "https://github.com/AxelBankuna/Matcha"
+      },
+      {
+        "title": "Puzzle Game",
+        "category": "Game (MongoDB, ExpressJS, Angular, NodeJS)",
+        "image": "ngmemory.png",
+        "url": "https://github.com/AxelBankuna/angular-memory-game"
+      },
+      {
+        "title": "Vanilla Javascript Puzzle Game",
+        "category": "Game (HTML, CSS, Javascript, ExpressJS, NodeJS)",
+        "image": "jsmemorygame.png",
+        "url": "http://jsmemory-game.herokuapp.com/"
+      },
+      {
+        "title": "Nodejs app using ejs template Survey",
+        "category": "Online survey (MongoDB, ExpressJS, Javascript, NodeJS, ejs)",
+        "image": "survey.png",
+        "url": "https://axel-survey-app.herokuapp.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "There's greatness within you.",
+        "user": "Les Brown"
+      }
+    ]
+  }
+}
